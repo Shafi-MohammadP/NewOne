@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+}
+.top-bar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.title{
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 50px;
+    height: 30px;
+
+}
+.options{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 1000px;
+}
+
+.appoint{
+    background-color: white;
+    padding: 10px;
+    width: 130px;
+    border-style: solid;
+    border-color: rgb(108, 97, 97);
+    cursor: pointer;
+    color: rgb(108, 97, 97);
+    transition: 0.30s;
+    
+}
+.appoint:hover{
+    background-color: rgb(234, 213, 228);
+}
+
+.search-icon{
+   margin-left: 40px;
+   cursor: pointer;
+   margin-top: 10px; 
+}
+.search-icon:hover{
+    opacity: 0.4;
+}
+.profile{
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.profile:hover{
+    opacity: 0.4;
+}
+
+.task-bar{
+    list-style-type: none;
+    display: flex;
+    font-family: Roboto;
+    margin-left: 300px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: small;
+    
+}
+
+.t1{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.t1:hover{
+    text-decoration: underline;
+}
+.t2{
+    margin-right: 40px;
+    cursor: pointer;
+    
+}
+.t2:hover{
+    text-decoration: underline;
+}
+.t3{
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.t3:hover{
+    text-decoration: underline;
+}
+.t4{
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.t4:hover{
+    text-decoration: underline;
+}
+.t5{
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.t5:hover{
+    text-decoration: underline;
+}
+.t6{
+    margin-right: 40px;
+    cursor: pointer;
+ 
+}
+.t6:hover{
+    text-decoration: underline;
+}
+.t7{
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.t7:hover{
+    text-decoration: underline;
+}
+.t8{
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.t8:hover{
+    text-decoration: underline;
+}
+.image{
+    width: 100%;
+}
+
+.welcome{
+    color: black;
+    margin-left: 860px;
+    margin-top: -315px;
+    font-weight: 1000;
+    font-size: 50px;
+    
+}
+.shop-button{
+    margin-left: 860px;
+    margin-top: -50px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 140px;
+    cursor: pointer;
+}
+.shop-button:hover{
+    background-color: rgb(23, 19, 19);
+}
+.message-us{
+    margin-left: 1310px;
+    margin-top: 165px;
+    position: fixed;
+    cursor: pointer;
+}
+.title-2{
+    margin-left: 650px;
+    margin-top: 220px;
+    font-family: 'Cormorant Garamond', serif;;
+
+}
+.note-1{
+    margin-left: 590px;
+    font-family: 'Cairo', sans-serif;    
+    font-size: smalle;
+    color: rgb(97, 94, 94);
+    letter-spacing: 1px;
+    
+}
+.email-sub{
+ list-style-type: none;
+ display: flex;
+ margin-left: -60px;
+
+}
+
+
+.email{
+    width: 400px;
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 500px;
+    font-size: 15px;
+
+
+}
+.subscribe{
+    border: none;
+    color: white;
+    background-color: black;
+    height: 43.1px;
+    width: 120px;
+    cursor: pointer;
+}
+.subscribe:hover{
+    background-color: rgb(32, 31, 31);
+}
+.note-2{
+    font-family: 'Cairo', sans-serif;
+    color: rgb(97, 94, 94);
+    margin-left: 480px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: smaller;
+
+}
+.policy{
+    text-decoration: underline;
+
+}
+.terms{
+    text-decoration: underline;
+}
+.apply{
+    margin-left: 260px;
+}
+.details{
+    list-style-type: none;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.location{
+    margin-left: 150px;
+    font-size: x-large;
+}
+.address{
+    margin-left: 150px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: small;
+    color: black;
+
+
+
+}
+.time{
+    margin-left: 150px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 17px;
+    font-size: small;
+    letter-spacing: 1.5px;
+    color: black;
+
+}
+.number{
+    color: rgb(19, 50, 205);
+    cursor: pointer;
+}
+.number:hover{
+    text-decoration: underline;
+
+}
+.email-2{
+    color: rgb(19, 50, 205);
+    cursor: pointer;
+}
+.email-2:hover{
+    text-decoration: underline;
+
+}
+.final{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+
+}
+.parlour{
+    font-size: large;
+
+}
+.year{
+    margin-left: 400px;
+    margin-top: 30px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.message{
+    margin-left: 400px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.facebook{
+    margin-left: 10px;
+    margin-top: 22px;
+    cursor: pointer;
+
+}
+.instagram{
+    margin-left: 5px;
+    margin-top: 23px;
+    cursor: pointer;
+    
+}
